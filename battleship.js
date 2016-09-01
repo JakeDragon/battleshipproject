@@ -62,7 +62,7 @@ var gameBoard = [
 
 function fireTorpedo() {
 
-$(#fireTorpedo).text($(#fireTorpedo).val());
+var userInput = $("#inputBox").val();
 
 	// Your game logic will go here!
 
