@@ -43,7 +43,7 @@ square.textContent = letterArray[j] + (i + 1);
 		// use CSS absolute positioning to place each grid square on the page
 		square.style.top = topPosition + 'px';
 		square.style.left = leftPosition + 'px';
-	}
+   }
 }
 
 // Hardcoded 2D array to indicate where the ships are placed
@@ -65,5 +65,15 @@ function fireTorpedo() {
 var userInput = $("#InputBox").val();
 
 	// Your game logic will go here!
+
+var rowletter = userInput.substring(0,1);
+
+var column = userInput.substring(1,3);
+
+var columnConversion = rowletter - 1;
+
+var row = letterConversion(rowLetters) {
+
+	}
 
 }
