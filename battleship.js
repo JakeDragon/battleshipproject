@@ -72,8 +72,14 @@ var column = userInput.substring(1,3);
 
 var columnConversion = rowletter - 1;
 
-var row = letterConversion(rowLetters) {
+var row = letterConversion[rowletter];
 
-	}
+twoDimensionalArray[row][column];
+
+	  var potato ='s' + row + columnConversion;
+	/*  if(gameboard) {
+
+		}
+	}*/
 
 }

@@ -2,18 +2,23 @@ body {
     margin: 60px auto;
     width: 70%;
     max-width: 950px;
-}
+    background-image: url(http://www.pusd.us/cms/lib011/CA01901115/Centricity/Domain/766/Staff%20Sept%202010%20019.jpg);
+    background-size: 50%;
+  }
 
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: white;
+
 }
 
-p, button, input {
+p,  input {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: black;
 	margin-bottom:1em;
+  font-weight: bold;
 }
 
 #gameboard {
@@ -44,4 +49,8 @@ p, button, input {
   position:relative;
   margin:0 auto 2em auto;
   width:500px;
+}
+
+button {
+  color: black;
 }
