@@ -66,7 +66,7 @@ var userInput = $("#InputBox").val();
 
 	// Your game logic will go here!
 
-var rowletter = userInput.substring(0,1);
+//var rowletter = userInput.substring(0,1);
 
 var column = userInput.substring(1,3);
 
