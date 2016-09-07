@@ -76,10 +76,8 @@ var row = letterConversion[rowletter];
 
 twoDimensionalArray[row][column];
 
-	  //var potato ='s' + row + columnConversion;
-	  //if(gameboard) {
+	  var potato ='s' + row + columnConversion;
+	  if(gameboard) {
 
-		//}
-	}
-
+		}
 }
