@@ -14,7 +14,7 @@ var letterConversion = {
 	"C": 2,
 	"D": 3,
 	"E": 4,
-	"F": 5,
+	"F": 5,a
 	"G": 6,
 	"H": 7,
 	"I": 8,
@@ -76,7 +76,7 @@ var gameBoard = [
 
 					if (battleship == 1)
 					{
-						$("#" + coordinates).css("background-color", "red");
+						$("#" + coordinates).css("background-color", "cyan");
 						shipsHit += 1;
 					}
 				else {
