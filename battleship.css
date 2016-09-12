@@ -9,17 +9,17 @@ body {
 
 h1 {
     font-size: 3em;
-  font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     color: white;
   }
 }
 
-p, button, input {
+p, input {
     font-size: 1.5em;
     line-height: 1.4em;
-font-family: 'Josefin Sans', sans-serif;
-	margin-bottom:1em;
-  font-weight: bold;
+    font-family: 'Cuprum', sans-serif;
+	  margin-bottom:1em;
+    font-weight: bold;
 
 }
 
@@ -36,6 +36,7 @@ font-family: 'Josefin Sans', sans-serif;
 	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
 	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
 	background: grey; /* Old browsers */
+  font-family: 'Cuprum', sans-serif;
 	border: 1px solid #ddd;
 	width:45px;
 	height:45px;
@@ -43,7 +44,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .boardSquare {
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Baloo Tamma', cursive;
   line-height: 50px;
 }
 
@@ -51,4 +52,46 @@ font-family: 'Josefin Sans', sans-serif;
   position:relative;
   margin:0 auto 2em auto;
   width:500px;
+  }
+
+  button {
+    border-radius: 50px;
+    font-size: 30px;
+  }
+
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button */
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
   }
